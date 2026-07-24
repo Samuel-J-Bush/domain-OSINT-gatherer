@@ -1,2 +1,38 @@
-# domain-OSINT-gatherer
-Program that allows you to enter the name of a domain, then it returns publicly accessible information about the domain.
+# Domain OSINT gatherer
+This project is a tool that collects publically accessable information about a domain and summarises it into a file or terminal output.
+
+## What it does
+- Allows user to input name of target domain
+- Allows user to choose whether new file or terminal output
+- Collects information from the following fields:
+    - DNS information
+    - HTTP information
+    - Certificate information
+    - File information
+- Outputs in terminal or creates a new text document with information
+
+## Collections
+### DNS
+1. A, AAAA records
+2 MX records (mail servers)
+3. NS rcords (nameservers)
+### HTTP
+1. HTTPS status
+2. HTTP status (as a fallback for HTTPS)
+3. Redirects
+### Certificate
+1. Certificate issuer
+2. Valid from date
+3. Valid untill date
+### File
+1. robots.txt
+2. sitemap.xml
+3. security.txt
+
+## Output
+When inputting the domain, the user has the option of two output types.
+1. Terminal output - Output in the terminal with the data for quick access and use.
+2. File creation - Creates a file with the data so can be saved and referred back to in future.
+
+## Example
+For example, to gather information on google.com.
