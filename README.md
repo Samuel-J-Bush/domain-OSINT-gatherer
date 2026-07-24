@@ -35,4 +35,12 @@ When inputting the domain, the user has the option of two output types.
 2. File creation - Creates a file with the data so can be saved and referred back to in future.
 
 ## Example
-For example, to gather information on google.com.
+### For example, to gather information on google.com.
+
+![Input in terminal](/screenshots/input.png)
+
+### And to be put into a file.
+
+![Output in a file](/screenshots/output.png)
+
+### If it was not in a file, the output is identical - just in the terminal.
