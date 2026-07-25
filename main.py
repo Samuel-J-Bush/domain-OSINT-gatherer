@@ -1,3 +1,4 @@
+import os # Import for folder generation feature
 from collectors.dns_collector import dns_collection # So the functions that collect the data in their section are callable
 from collectors.http_collector import http_collection
 from collectors.certificate_collector import cert_collection
@@ -15,11 +16,14 @@ cert_results = cert_collection(domain)
 print("Certificate collection complete")
 file_results = file_collection(domain)
 print("File collection complete")
-
 total_report = report_generator(dns_results, http_results, cert_results, file_results, domain) # In order to have a better formatted, easier to read output.
+print("Report generation complete")
+
+if os.path.exists("reports") == False: # To only make a new folder if the reports folder doesnt exist 
+    os.mkdir("reports")
 
 if option == "f":
-    filename = f"{domain}_information.txt" # So the filename is recongisable as info on the domain
+    filename = f"reports/{domain}_information.txt" # So the filename is recongisable as info on the domain and saved into the reports folder
     with open(filename, "w", encoding = "utf-8") as newfile: # Opening file in "write" makes a new file or overwrites if report for domain already exists
         newfile.write(total_report)
 
