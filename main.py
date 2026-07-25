@@ -23,7 +23,7 @@ if os.path.exists("reports") == False: # To only make a new folder if the report
     os.mkdir("reports")
 
 if option == "f":
-    filename = f"reports/{domain}_information.txt" # So the filename is recongisable as info on the domain and saved into the reports folder
+    filename = f"reports/{domain}_information.txt" # So the filename is recognisable as info on the domain and saved into the reports folder
     with open(filename, "w", encoding = "utf-8") as newfile: # Opening file in "write" makes a new file or overwrites if report for domain already exists
         newfile.write(total_report)
 
