@@ -9,7 +9,7 @@ This project is a tool that collects publically accessable information about a d
     - HTTP information
     - Certificate information
     - File information
-- Outputs in terminal or creates a new text document with information
+- Outputs in terminal or creates a new text document (in newly created folder if first run of tool) with information
 
 ## Collections
 ### DNS
@@ -32,7 +32,9 @@ This project is a tool that collects publically accessable information about a d
 ## Output
 When inputting the domain, the user has the option of two output types.
 1. Terminal output - Output in the terminal with the data for quick access and use.
-2. File creation - Creates a file with the data so can be saved and referred back to in future.
+2. File creation - Creates a folder called reports if it has not already been created.
+    - File with the data saved in the reports folder and referred back to in future.
+    - If tool is ran again then the new file will be added to same reports folder.
 
 ## Example
 ### For example, to gather information on google.com.
