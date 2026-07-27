@@ -28,6 +28,10 @@ This project is a tool that collects publically accessable information about a d
 1. robots.txt
 2. sitemap.xml
 3. security.txt
+### Whois
+1. registrar
+2. registrant (if available)
+3. creation and expiration date
 
 ## Output
 When inputting the domain, the user has the option of two output types.
