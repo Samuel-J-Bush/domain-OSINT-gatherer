@@ -3,6 +3,7 @@ from collectors.dns_collector import dns_collection # So the functions that coll
 from collectors.http_collector import http_collection
 from collectors.certificate_collector import cert_collection
 from collectors.file_collector import file_collection 
+from collectors.whois_collector import whois_collection
 from report import report_generator # So the report_generator function can imporve formatting of the dictionaries to be outputted
 
 domain = input("Enter domain name: ") # User can select the domain to gather info about
@@ -16,7 +17,9 @@ cert_results = cert_collection(domain)
 print("Certificate collection complete")
 file_results = file_collection(domain)
 print("File collection complete")
-total_report = report_generator(dns_results, http_results, cert_results, file_results, domain) # In order to have a better formatted, easier to read output.
+whois_results = whois_collection(domain)
+print("Whois collection complete")
+total_report = report_generator(dns_results, http_results, cert_results, file_results, whois_results, domain) # In order to have a better formatted, easier to read output.
 print("Report generation complete")
 
 if os.path.exists("reports") == False: # To only make a new folder if the reports folder doesnt exist 
