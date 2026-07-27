@@ -1,12 +1,12 @@
 from datetime import datetime
 
-def report_generator(dns_results, http_results, cert_results, file_results, domain): # Takes the parameters of the data in the poorly formatted dictionaries
+def report_generator(dns_results, http_results, cert_results, file_results, whois_results, domain): # Takes the parameters of the data in the poorly formatted dictionaries
     report_text = ""
     now = datetime.now() # Collects unformatted date and time of report generation
     formatted_time = now.strftime("%B %d, %Y at %I:%M:%S") # Improves formatting for human readability
     report_text = report_text +  f"Gathered information for {domain} on {formatted_time}\n" # To clearly state the domain once at the top alongside date and time
 
-    for results_type in [dns_results, http_results, cert_results, file_results]: # For each of the types of results, iterates through the four result dictionaries.
+    for results_type in [dns_results, http_results, cert_results, file_results, whois_results]: # For each of the types of results, iterates through the four result dictionaries.
         for rtype, record in results_type.items(): # Loops through each key value pair in the dictionary
 
             if rtype == "domain": # Domain is in all dictionaries, this ensures the domain isnt repeated as it is already put in by line 3
