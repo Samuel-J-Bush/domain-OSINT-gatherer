@@ -25,5 +25,7 @@ def cert_collection(domain):
         cert_results['valid_from'] = certificate['notBefore']  # Store valid from data in results, in the certificate it is called notBefore
         cert_results['valid_until'] = certificate['notAfter']  # Store valid until data in results, in the certificate it is called notAfter
     
-    except: # Catch any erros so doesnt stop the whole collection if a certificate collection error
+    except: # Catch any errors so doesnt stop the whole collection if a certificate collection error
         pass
+
+    return cert_results
