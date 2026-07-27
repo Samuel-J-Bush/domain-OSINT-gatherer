@@ -9,7 +9,7 @@ This project is a tool that collects publically accessable information about a d
     - HTTP information
     - Certificate information
     - File information
-- Outputs in terminal or creates a new text document (in newly created folder if first run of tool) with information
+- Outputs in timestamped report terminal or creates a new timestamped text document (in newly created folder if first run of tool) with information
 
 ## Collections
 ### DNS
