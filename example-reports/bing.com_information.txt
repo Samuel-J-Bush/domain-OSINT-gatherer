@@ -1,0 +1,41 @@
+Gathered information for bing.com on July 29, 2026 at 03:38:44 
+
+DNS RESULTS 
+A
+- 150.171.28.10 
+- 150.171.27.10 
+AAAA
+- 2620:1ec:33:1::10 
+- 2620:1ec:33::10 
+MX
+- 10 bing-com.mail.protection.outlook.com. 
+NS
+- ns2-204.azure-dns.net. 
+- ns4-204.azure-dns.info. 
+- ns3-204.azure-dns.org. 
+- dns1.p09.nsone.net. 
+- dns2.p09.nsone.net. 
+- dns3.p09.nsone.net. 
+- dns4.p09.nsone.net. 
+- ns1-204.azure-dns.com. 
+
+HTTP RESULTS 
+https_status: 301
+http_status: 
+redirect: https://www.bing.com:443/?toWww=1&redig=EA10C432465A439EB6E5B35E5A7BB8E2
+
+CERTIFICATE RESULTS 
+issuer: Microsoft TLS G2 RSA CA OCSP 02
+valid_from: May  3 03:13:55 2026 GMT
+valid_until: Oct 30 03:13:55 2026 GMT
+
+FILE RESULTS 
+robots.txt: https://bing.com/robots.txt
+sitemap.xml: https://bing.com/sitemap.xml
+security.txt: 
+
+WHOIS RESULTS 
+registrar: MarkMonitor, Inc.
+registrant: 
+creation_date: 1996-01-29 05:00:00+00:00
+expiration_date: 2027-01-30 05:00:00+00:00
