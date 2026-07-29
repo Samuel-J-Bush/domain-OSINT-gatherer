@@ -1,0 +1,38 @@
+Gathered information for duckduckgo.com on July 29, 2026 at 03:41:16 
+
+DNS RESULTS 
+A
+- 52.142.124.215 
+AAAA
+MX
+- 0 duckduckgo-com.mail.protection.outlook.com. 
+NS
+- dns1.p05.nsone.net. 
+- dns2.p05.nsone.net. 
+- dns3.p05.nsone.net. 
+- dns4.p05.nsone.net. 
+- ns01.quack-dns.com. 
+- ns02.quack-dns.com. 
+- ns03.quack-dns.com. 
+- ns04.quack-dns.com. 
+
+HTTP RESULTS 
+https_status: 200
+http_status: 
+redirect: 
+
+CERTIFICATE RESULTS 
+issuer: DigiCert Global G2 TLS RSA SHA256 2020 CA1
+valid_from: May  5 00:00:00 2026 GMT
+valid_until: Nov 19 23:59:59 2026 GMT
+
+FILE RESULTS 
+robots.txt: https://duckduckgo.com/robots.txt
+sitemap.xml: https://duckduckgo.com/sitemap.xml
+security.txt: 
+
+WHOIS RESULTS 
+registrar: NAMECHEAP INC
+registrant: 
+creation_date: 2007-11-11 17:24:08+00:00
+expiration_date: 2027-06-23 03:59:59+00:00
