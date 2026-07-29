@@ -47,6 +47,6 @@ When inputting the domain, the user has the option of two output types.
 
 ### And to be put into a file.
 
-![Output in a file](/screenshots/output.png)
+![Output in a file](/screenshots/outputwithheaders.png)
 
 ### If it was not in a file, the output is identical - just in the terminal.
