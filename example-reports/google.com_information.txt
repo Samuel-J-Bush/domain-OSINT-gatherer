@@ -1,0 +1,45 @@
+Gathered information for google.com on July 29, 2026 at 03:33:09 
+
+DNS RESULTS 
+A
+- 142.250.140.101 
+- 142.250.140.138 
+- 142.250.140.113 
+- 142.250.140.139 
+- 142.250.140.102 
+- 142.250.140.100 
+AAAA
+- 2a00:1450:4009:c0b::66 
+- 2a00:1450:4009:c0b::71 
+- 2a00:1450:4009:c0b::64 
+- 2a00:1450:4009:c0b::8b 
+MX
+- 10 smtp.google.com. 
+NS
+- ns1.google.com. 
+- ns4.google.com. 
+- ns3.google.com. 
+- ns2.google.com. 
+
+HTTP RESULTS 
+https_status: 301
+http_status: 
+redirect: https://www.google.com/
+
+CERTIFICATE RESULTS 
+issuer: WR2
+valid_from: Jun 29 08:37:25 2026 GMT
+valid_until: Sep 21 08:37:24 2026 GMT
+
+FILE RESULTS 
+robots.txt: https://google.com/robots.txt
+sitemap.xml: https://google.com/sitemap.xml
+security.txt: https://google.com/.well-known/security.txt
+
+WHOIS RESULTS 
+registrar: MarkMonitor, Inc.
+registrant: 
+creation_date: 1997-09-15 04:00:00+00:00
+expiration_date: 2028-09-14 04:00:00+00:00
+
+
